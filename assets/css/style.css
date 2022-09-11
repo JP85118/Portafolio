@@ -116,7 +116,7 @@ a{
 /* ShowCase */
 
 .showcase{
-    background: url("/assets/img/fondo.jpg");
+    background-image: url("/assets/img/fondo.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
