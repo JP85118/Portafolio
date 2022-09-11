@@ -116,7 +116,7 @@ a{
 /* ShowCase */
 
 .showcase{
-    background-image: url("/assets/img/fondo.jpg");
+    background-image: url("/assets/img/atardecer1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -156,6 +156,7 @@ a{
 }
 
 .about__row__experience, .about__row__me{
+    text-align: center;
     width: 50%;
     padding-left: 50px;
 }
