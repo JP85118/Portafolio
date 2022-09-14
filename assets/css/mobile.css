@@ -1,16 +1,20 @@
 
-.proyects, .about, .contact{
+.main__proyects, .main__about, .main__contact{
     padding: 50px 0;
 }
 
-.proyects__container h2{
+.proyects__title{
     margin-top: 1rem;
+}
+
+.proyects__row{
+    flex-wrap: wrap;
 }
 
 
 /* About */
 
-.about p, .about h4{
+.about__p, .about__title__exp{
     text-align: center;
 }
 
@@ -18,14 +22,18 @@
     flex-wrap: wrap;
 }
 
-.about__row__experience, .about__row__me{
+.about__experience, .about__me{
     width: 100%;
     padding-left: 0px;
 }
 
+.about__title__abtm{
+    margin-top: 20px;
+}
+
 /* Contact */
 
-.contact{
+.main__contact{
     padding: 50px 0;
 }
 
@@ -33,17 +41,9 @@
     flex-wrap: wrap;
 }
 
-.contac__row__icon{
+.contact__icon{
     width: 100%;
     text-align: center;
     margin: 1rem;
 }
 
-.contac__row__icon img{
-    height: 100px;
-    border-radius: 30px;
-}
-
-.contac__row__icon iframe{
-    width: 100%;
-}

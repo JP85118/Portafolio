@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+/* Main style */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 50px;
+    color: #575757;
+    text-shadow: 2px 2px rgb(192, 192, 192);
+}
+
+h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Utility Clases */
+
+.nav__container, .showcase__container, .proyects__container, .about__container, .contact__container, .footer__container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.large{
+    font-size: 20px;
+}
+
+.btn img{
+    display: inline-block;
+    width: 50px;
+}
+
+.btn_outline img{
+    background: transparent;
+}
+
+.btn_outline img:hover{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+
+/* NavBar */
+
+.main__navbar{
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main__navbar a{
+    color: black;
+}
+
+.main__navbar .logo{
+    float: left;
+    padding-top: 12px;
+}
+
+.main__navbar img{
+    height: 60px;
+    border-radius: 20px;
+}
+
+.main__navbar ul{
+    list-style: none;
+    float: right;
+}
+
+.main__navbar ul li{
+    float: left;
+}
+
+.main__navbar ul li a{
+    background-color: rgb(16, 15, 15);
+    color: #575757;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.main__navbar ul li a:hover{
+    color: #f9f9f9;
+    background-color: rgb(120, 122, 145);
+}
+
+/* ShowCase */
+
+.showcase{
+    background-image: url("/assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    padding: 100px;
+}
+
+.showcase .btn img{
+    margin-top: 260px;
+}
+
+/* Proyects */
+
+.proyects{
+    padding: 80px 0;
+}
+
+.proyects_row{
+    display: flex;
+}
+
+.proyects_row img{
+    width: 100%;
+    height: 90%;
+}
+
+/* About */
+
+.about{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.about__row{
+    display: flex;
+}
+
+.about__row__experience, .about__row__me{
+    text-align: center;
+    width: 50%;
+    padding-left: 50px;
+}
+
+/* Contact */
+
+.contact{
+    padding: 80px 0;
+}
+
+.contact__row{
+    display: flex;
+}
+
+.contac__row__icon{
+    width: 50%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.contac__row__icon img{
+    height: 200px;
+    border-radius: 30px;
+}
+
+.contac__row__icon iframe{
+    width: 100%;
+}
+
+.contact__form{
+    width: 300px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.contact__form input, textarea{ 
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+}
+
+.contact__form textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+
+/* Footer */
+
+.footer{
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}

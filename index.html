@@ -1,108 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/tablet.css" media="screen and (min-width: 640px) and (max-width: 1280px)">
-    <link rel="stylesheet" href="./assets/css/mobile.css" media="screen and 
-    (max-width:740px)">
-    <title>Portafolio Javier | Welcome</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/tablet.css" media="screen and (min-width: 640px) and (max-width: 1280px)">
+  <link rel="stylesheet" href="./assets/css/mobile.css" media="screen and 
+  (max-width:740px)">
+  <title>Portafolio Javier | Welcome</title>
 </head>
 <body>
-    <header class="main__header" id="main__header">
-        <nav class="nav__bar" id="nav__bar">
-            <div class="nav__container">
-                <a href="#main__header" class="logo"><img src="./assets/img/logo.png" alt="logo"></a>
-                <ul>
-                    <li><a href="#proyects">Proyects</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="showcase" id="showcase">
-            <div class="showcase__container">
-                <a href="https://github.com/JP85118" class="btn btn_outline" target="_blank"><img src="./assets/img/iconos/github.png" alt="github"></a>
-            </div>
+  <header class="header" id="header">
+    <nav class="header__nav">
+      <div class="container__nav">
+        <a href="#header" class="nav__logo">
+          <img src="./assets/img/logo.png" class="nav__img">
+        </a>
+        <ul class="nav__ul">
+          <li class="nav__li"><a href="#main__proyects" class="nav__link">Proyects</a></li>
+          <li class="nav__li"><a href="#main__about" class="nav__link">About</a></li>
+          <li class="nav__li"><a href="#main__contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="main__showcase">
+      <div class="container__showcase">
+        <a href="https://github.com/JP85118" class="btn btn_outline" target="_blank">
+          <img src="./assets/img/iconos/github.png" class="btn__img">
+        </a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main__proyects" id="main__proyects">
+      <div class="container__proyects">
+        <h2 class="proyects__title">Proyects</h2>
+        <div class="proyects__row">
+          <div class="proyects__row__datail">
+            <img src="./assets/img/eternals.png" class="proyects__img">
+          </div>
+          <div class="proyects__row__datail">
+            <img src="./assets/img/Hockey.png" class="proyects__img">
+          </div>
+          <div class="proyects__row__datail">
+            <img src="./assets/img/mokepon.png" class="proyects__img">
+          </div>
         </div>
-    </header>
-    <main class="main" id="main">
-        <section class="proyects" id="proyects">
-            <div class="proyects__container">
-                <h2>Proyects</h2>
-                <div class="proyects_row">
-                    <div class="proyects_row_detail">
-                        <img src="./assets/img/mokepon.png" alt="mokepon" >
-                    </div>
-                    <div class="proyects_row_detail">
-                        <img src="./assets/img/Hockey.png" alt="Hockey">
-                    </div>
-                </div>
-            </div>
-        </section>
+      </div>
+    </section>
 
-        <section class="about" id="about">
-            <div class="about__container">
-                <h2>About</h2>
-                <div class="about__row">
-                    <div class="about__row__experience">
-                        <h4>Experience</h4>
-                        <p class="large">crop operator - 2019</p>
-                        <p class="large">Pension and credit advisor - 2021</p>
-                        <p class="large">Commercial seller - 2022</p>
-                    </div>
-                    <div class="about__row__me">
-                        <h4>About me</h4>
-                        <p>
-                            Programming student at LarnU with the goal of being a Full Stack Developer. Serious and educated young man, with a very good attitude, working as a team and facing every challenge that arises, I focus on developing my skills as a developer every day in order to offer the best of myself in each activity, whether work or personal.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <div class="contact__container">
-                <h2>Contact</h2>
-                <div class="contact__row">
-                    <div class="contac__row__icon">
-                        <img src="./assets/img/iconos/marcador-de-posicion.png" alt="icono de posicion">
-                        <br><br>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035669.3479379485!2d-75.09469698296328!3d4.784317995375622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f28eb1616af2b%3A0x933cbcb5fad108ed!2sCundinamarca!5e0!3m2!1ses!2sco!4v1662830416334!5m2!1ses!2sco" width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    <div class="contac__row__icon">
-                        <a href="https://www.linkedin.com/in/javier-pe%C3%B1aranda-546b74249/" target="_blank">
-                            <img src="./assets/img/iconos/linkedin.png" alt="icono de linkedin"> 
-                        </a>
-                        <br>
-                        <br>
-                        <img src="./assets/img/yo.jpg" alt="Mi Foto" class="mi_foto">
-                    </div>
-                    <div class="contac__row__icon">
-                        <img src="./assets/img/iconos/correo-electronico.png" alt="icono de email">
-                        <div class="contact__form">
-                            <form action="">
-                                <input type="text" name="Nombre" placeholder="Nombre">
-                                <input type="mail" name="Correo" placeholder="Correo">
-                                <input type="tel" name="Telefono" placeholder="Telefono">
-                                <textarea name="message" placeholder="Write your message here"></textarea>
-                                <input type="submit" class="boton">
-                            </form>
-                        </div>
-                        <br>
-                        <a href="mailto:alejo982014@outlook.com">alejo982014@outlook.com</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="footer__container">
-            <p>By Javier 2022 &reg;</p>
+    <section class="main__about" id="main__about">
+      <div class="container__about">
+        <h2 class="about__title">About</h2>
+        <div class="about__row">
+          <div class="about__experience">
+            <h4 class="about__title__exp">Experience</h4>
+            <p class="about__p text">Crop operator - 2019</p>
+            <p class="about__p text">Pension and credit advisor - 2021</p>
+            <p class="about__p text">Commercial seller - 2022</p>
+          </div>
+          <div class="about__me">
+            <h4 class="about__title__abtm">About me</h4>
+            <p class="about__p">
+              Programming student at LarnU with the goal of being a Full Stack Developer. Serious and
+              educated young man, with a very good attitude, working as a team and facing every challenge
+              that arises, I focus on developing my skills as a developer every day in order to offer the
+              best of myself in each activity, whether work or personal.
+            </p>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <section class="main__contact" id="main__contact">
+      <div class="container__contact">
+        <h2 class="contact__title">Contact</h2>
+        <div class="contact__row">
+          <div class="contact__icon">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2035669.3479379485!2d-75.09469698296328!3d4.784317995375622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f28eb1616af2b%3A0x933cbcb5fad108ed!2sCundinamarca!5e0!3m2!1ses!2sco!4v1662830416334!5m2!1ses!2sco"
+              width="200" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade" class="contact__map">
+            </iframe>
+          </div>
+          <div class="contact__icon">
+            <a href="https://www.linkedin.com/in/javier-pe%C3%B1aranda-546b74249/" target="_blank">
+              <img src="./assets/img/iconos/linkedin.png" class="contact__img">
+          </a>
+          </div>
+          <div class="contact__icon">
+            <div class="contact__form">
+              <form action="">
+                <input type="text" name="Nombre" placeholder="Nombre" class="form__input">
+                <input type="mail" name="Correo" placeholder="Correo" class="form__input">
+                <input type="tel" name="Telefono" placeholder="Telefono" class="form__input">
+                <textarea name="message" placeholder="Write your message here" class="form__textarea"></textarea>
+                <input type="submit" class="form__boton">
+            </form>
+            <i class="icon__email fa-solid fa-envelope"></i>
+            <span>contact me <a href="mailto:alejo982014@outlook.com" class="contact__link">alejo982014@outlook.com</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container__footer">
+      <p class="footer__p">By Javier 2022 &reg;</p>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/678c90d17e.js" crossorigin="anonymous"></script>
 </body>
 </html>
