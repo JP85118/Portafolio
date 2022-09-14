@@ -104,7 +104,7 @@
 /* ShowCase */
 
 .main__showcase{
-  background-image: url("/assets/img/fondo.jpg");
+  background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
